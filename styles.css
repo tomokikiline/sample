@@ -9,9 +9,12 @@ body{
 .header-logo{
     color: #258CC3;
     margin:0 auto;
+    float: left;
 }
+
 .header-list{
     display: flex;
+    float: left;
     list-style: none;
     font-size: 19px;
 }
