@@ -4,6 +4,7 @@ body{
 }
 .header{
     height: 100px;
+    background-color: brown;
 }
 .logo{
     color: #258CC3;
@@ -13,4 +14,14 @@ body{
     display: flex;
     list-style: none;
     font-size: 19px;
+}
+
+.main{
+    height: 100px;
+    background-color: brown;
+}
+
+.footer{
+    height: 116px;
+    background-color: #717171;
 }
