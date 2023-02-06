@@ -6,7 +6,7 @@ body{
     height: 100px;
     background-color: brown;
 }
-.logo{
+.heder-logo{
     color: #258CC3;
     margin:0 auto;
 }
@@ -17,15 +17,18 @@ body{
 }
 
 
+
 .info{
     height: 580px;
     background-color: blueviolet;
 }
 
+
 .contact{
     height: 326px;
     background-color: black;
 }
+
 
 
 .footer{
