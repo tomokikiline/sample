@@ -1,5 +1,5 @@
 
-body{
+.pages{
     width: 1200px;
 }
 .header{
@@ -16,10 +16,17 @@ body{
     font-size: 19px;
 }
 
-.main{
-    height: 100px;
-    background-color: green;
+
+.info{
+    height: 580px;
+    background-color: blueviolet;
 }
+
+.contact{
+    height: 326px;
+    background-color: black;
+}
+
 
 .footer{
     height: 116px;
