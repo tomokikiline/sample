@@ -4,12 +4,11 @@ body{
 }
 .header{
     height: 100px;
-    background-color: brown;
 }
 .header-logo{
     color: #258CC3;
-    margin:0 auto;
     float: left;
+    font-size:30px;
 }
 
 .header-list{
@@ -19,11 +18,20 @@ body{
     font-size: 19px;
 }
 
-
+.main{
+    height: 600px;
+    background-color:black;
+}
 
 .info{
+    height: 619px;
+    background-color: gray;
+}
+
+
+.company{
     height: 580px;
-    background-color: blueviolet;
+    background-color: #F8F8F8;
 }
 
 
