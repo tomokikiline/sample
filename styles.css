@@ -9,7 +9,7 @@ body{
 }
 .logo{
     color: #258CC3;
-    align-items: center;
+    margin:0 auto;
 }
 .header-list{
     display: flex;
