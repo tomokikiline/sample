@@ -62,4 +62,11 @@ body{
 .footer{
     height: 116px;
     background-color: #717171;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+    color:#FFFFFF;
+    text-align: center;
 }
