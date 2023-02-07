@@ -35,9 +35,17 @@ body{
 
 .main{
     height: 600px;
-    background-color:black;
+    /*background-color:black;*/
+    background-image: url("img/sample-mainvisual.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.center-text h1{
+    color: #FFFFFF;
+    text-align: center;
+}
 
 
 .info{
@@ -66,7 +74,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.footer-logo{
+.footer-copyright{
     color:#FFFFFF;
     text-align: center;
 }
