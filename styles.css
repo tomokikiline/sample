@@ -28,7 +28,11 @@ body{
 .header-list li:hover{
     text-decoration: underline;
     text-decoration-color: #52A3EE;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 7px;
 }
+
+
 
 
 
@@ -44,8 +48,11 @@ body{
 
 .center-text{
     color: #FFFFFF;
-    text-align: center;
+    text-align: left;
 }
+
+
+
 
 
 .info{
