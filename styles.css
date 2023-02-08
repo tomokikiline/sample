@@ -13,9 +13,7 @@ body{
     float: left;
     margin-left:100px;
 }
-.logo{
-    margin-left: 100px;
-}
+
 
 .header-list{
     display: flex;
@@ -39,7 +37,6 @@ body{
 
 .main{
     height: 600px;
-    /*background-color:black;*/
     background-image: url("img/sample-mainvisual.png");
     display: flex;
     justify-content: center;
@@ -55,23 +52,74 @@ body{
 
 
 
+
 .info{
     height: 619px;
-    background-color: gray;
+    background-color: #F5F5F5;
 }
+
+.info-content{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.data{
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.data:first-child{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.info-content li{
+    list-style: none;
+    font-size:16px;
+    padding: 30px;
+}
+
+.info-history{
+    text-align: right;
+    margin-right:100px ;
+    text-decoration: none;
+}
+.info-history p:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 7px;
+}
+
+
+
 
 
 .company{
     height: 580px;
-    background-color: #F8F8F8;
+    background-color: gray;
 }
 
 
 .contact{
     height: 326px;
-    background-color: black;
+    background-color: bisque;
 }
 
+
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 43px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    align-items: center;
+    padding-top:30px;
+}
 
 
 .footer{
