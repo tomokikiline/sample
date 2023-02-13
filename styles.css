@@ -1,6 +1,7 @@
 
 body{
-    width: 1200px;
+    /*width: 1200px;*/
+    max-width: 100%;
     padding:0;
     margin: 0;
 }
@@ -13,7 +14,7 @@ body{
     margin:0 auto;
 }
 
-.header>.box{
+.header{
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -21,7 +22,7 @@ body{
 }
 .header-logo{
     float: left;
-    /*margin-left:100px;*/
+    margin-left:100px;
 }
 
 
@@ -30,7 +31,7 @@ body{
     list-style: none;
     font-size: 19px;
     gap:20px;
-    /*margin-right: 100px;*/
+    margin-right: 100px;
     text-decoration: none;
 }
 .header-list li:hover{
@@ -54,16 +55,22 @@ body{
     justify-content: center;
     align-items: center;
 }
-/*.main img{
+.main>.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main img{
     display: block;
     margin: auto;
-    width: 100vm;
-}*/
+    max-width: 100%;
+}
 
 .center-text{
     color: #FFFFFF;
     text-align: left;
 }
+
 
 
 
