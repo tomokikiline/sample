@@ -1,9 +1,19 @@
 
 body{
     width: 1200px;
+    padding:0;
+    margin: 0;
+}
+/*body>div{
+    width: auto;
+}*/
+
+.box{
+    width: 1000px;
+    margin:0 auto;
 }
 
-.header{
+.header>.box{
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -11,7 +21,7 @@ body{
 }
 .header-logo{
     float: left;
-    margin-left:100px;
+    /*margin-left:100px;*/
 }
 
 
@@ -20,7 +30,7 @@ body{
     list-style: none;
     font-size: 19px;
     gap:20px;
-    margin-right: 100px;
+    /*margin-right: 100px;*/
     text-decoration: none;
 }
 .header-list li:hover{
@@ -37,11 +47,18 @@ body{
 
 .main{
     height: 600px;
+    width: 100%;
     background-image: url("img/sample-mainvisual.png");
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/*.main img{
+    display: block;
+    margin: auto;
+    width: 100vm;
+}*/
 
 .center-text{
     color: #FFFFFF;
@@ -114,7 +131,6 @@ body{
     align-items: center;
     /*border:1px solid rgba(0, 0, 0, 0.2) ;*/
     filter: drop-shadow(0px 0px 1px rgba(0,0,0,0.2));
-    border-radius: 10px;
     height: 300px;
     width: 580px;
     background-color: #FFFFFF;
@@ -143,8 +159,13 @@ body{
     background-image: url("img/ contact-img.png");
 }
 
+
 .contact>.heading{
     color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
 }
 .contact>.contact-form{
     color: #FFFFFF;
@@ -152,7 +173,24 @@ body{
      color: #FFFFFF;
  }
 
+.contact-form{
+    width: 684px;
+    height:106px;
+    background-color: #00D3C7;
+    border-radius: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
 
+.contact img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
 
 
 .heading{
