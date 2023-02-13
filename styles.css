@@ -112,7 +112,8 @@ body{
 
 .company-content{
     align-items: center;
-    border:1px solid rgba(0, 0, 0, 0.2) ;
+    /*border:1px solid rgba(0, 0, 0, 0.2) ;*/
+    filter: drop-shadow(0px 0px 1px rgba(0,0,0,0.2));
     border-radius: 10px;
     height: 300px;
     width: 580px;
@@ -139,9 +140,17 @@ body{
 .contact{
     height: 326px;
     background-color: bisque;
+    background-image: url("img/ contact-img.png");
 }
 
-
+.contact>.heading{
+    color: #FFFFFF;
+}
+.contact>.contact-form{
+    color: #FFFFFF;
+}.contact>p{
+     color: #FFFFFF;
+ }
 
 
 
