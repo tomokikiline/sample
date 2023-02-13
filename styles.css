@@ -12,9 +12,10 @@ body{
     margin:0 auto;
 }
 
+
 .header{
     height: 100px;
-    width: 1200px;
+    /*width: 1200px;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,14 +84,15 @@ body{
 }
 
 .info-content{
-    width: 1000px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     padding-top: 30px;
 }
 
 .data{
+    /*width: 100%;*/
     display: flex;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -107,8 +109,10 @@ body{
 
 .info-history{
     text-align: right;
-    margin-right:100px ;
+    /*margin-right:100px ;*/
     text-decoration: none;
+    margin: 0 auto;
+    width: 1000px;
 }
 .info-history p:hover{
     text-decoration: underline;
