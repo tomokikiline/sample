@@ -140,9 +140,17 @@ body{
 .contact{
     height: 326px;
     background-color: bisque;
+    background-image: url("img/ contact-img.png");
 }
 
-
+.contact>.heading{
+    color: #FFFFFF;
+}
+.contact>.contact-form{
+    color: #FFFFFF;
+}.contact>p{
+     color: #FFFFFF;
+ }
 
 
 
